@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    int secretNumber, result;
+
+    printf("Welcome to the Mind Reading Game!\n");
+    printf("Think of a number between 1 and 10.\n");
+    printf("Press Enter when you're ready...");
+    getchar(); // Wait for the user to press Enter
+
+    printf("Double your number.\n");
+    printf("Press Enter when you're done...");
+    getchar(); // Wait for the user to press Enter
+
+    printf("Add 10 to the result.\n");
+    printf("Press Enter when you're done...");
+    getchar(); // Wait for the user to press Enter
+
+    printf("Divide the result by 2.\n");
+    printf("Press Enter when you're done...");
+    getchar(); // Wait for the user to press Enter
+
+    printf("Subtract the number you picked from the total .\n");
+    printf("Press Enter when you're done...");
+    getchar(); // Wait for the user to press Enter
+
+    printf("The number you're left with is 5!\nHurrayyy I Guessed it Right");
+
+    return 0;
+}
